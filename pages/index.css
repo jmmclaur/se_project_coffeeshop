@@ -171,6 +171,9 @@
   justify-content: center;
   z-index: 1;
   text-align: center;
+  border: none;
+  width: 100%;
+  height: 100%;
 }
 
 .recipes__video-caption {
