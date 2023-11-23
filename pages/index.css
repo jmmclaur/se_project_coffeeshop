@@ -18,6 +18,9 @@
   background-color: #ffffff;
   position: relative;
   box-sizing: bordor-box;
+  background-image: url("../images/background_header.svg");
+  background-position: center;
+  background-size: cover;
 }
 
 .header__image {
@@ -136,6 +139,8 @@
   color: #ffffff;
   background-color: #0a2750;
   background-size: cover;
+  background-image: url("../images/background_recipes.svg");
+  background-position: center;
 }
 
 .recipes__subtitle {
