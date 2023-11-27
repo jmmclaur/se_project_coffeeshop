@@ -197,7 +197,7 @@
 }
 
 .reservation__title {
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -217,7 +217,7 @@
 .form {
   max-width: 385px;
   bottom: 120px;
-  display: flex;
+  align-items: center;
 }
 
 .form__fieldset {
@@ -283,7 +283,6 @@ input.form__label_type_checkbox {
 }
 
 .form__button:hover {
-  padding: 0;
   border-radius: 4px;
   transition-property: opacity;
   opacity: 0.7;
