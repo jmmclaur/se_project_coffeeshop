@@ -218,8 +218,6 @@
   max-width: 385px;
   bottom: 120px;
   display: flex;
-  padding-left: auto;
-  padding-right: auto;
 }
 
 .form__fieldset {
