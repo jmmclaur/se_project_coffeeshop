@@ -216,6 +216,7 @@
 .form {
   max-width: 385px;
   bottom: 120px;
+  display: inline-block;
 }
 
 .form__fieldset {
@@ -254,7 +255,6 @@ input.form__label_type_checkbox {
 
 .form__input {
   display: block;
-  width: 100%;
   padding: 0;
   box-sizing: border-box;
   margin-top: 8px;
@@ -278,7 +278,7 @@ input.form__label_type_checkbox {
   display: inline-block;
   font-size: 16px;
   width: 100%;
-  height: 60%;
+  height: 60px;
 }
 
 .form__button:hover {
