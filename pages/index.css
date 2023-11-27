@@ -217,12 +217,13 @@
 .form {
   max-width: 385px;
   bottom: 120px;
-  align-items: center;
 }
 
 .form__fieldset {
   display: flex;
   flex-direction: column;
+
+  max-width: 385px;
   padding: 0;
   margin: 0;
   border: none;
