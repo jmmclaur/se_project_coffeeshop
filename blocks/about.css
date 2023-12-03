@@ -1,11 +1,10 @@
 .about {
   margin: 0;
-  padding: 100px 80px;
+  padding: 100px 0;
   background-color: #0a2850;
   color: #fff;
   overflow: hidden;
   position: relative;
-  gap: 120px;
   display: flex;
   justify-content: space-between;
 }
@@ -15,7 +14,7 @@
   margin: 0;
   z-index: 1;
   max-width: 251px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -24,12 +23,11 @@
 
 .about__content {
   position: relative;
-  margin-top: 119px;
+  margin-top: 19px;
   margin-bottom: 173px;
-  margin-right: 80px;
   z-index: 1;
   max-width: 660px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -69,6 +67,5 @@
   }
 }
 .about__circle_animation_blurred {
-  opacity: 50%;
-  animation: pulse 1.3s ease-in-out;
+  animation: pulse 1.3s ease-in-out infinite;
 }
