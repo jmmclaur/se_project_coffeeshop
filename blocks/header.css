@@ -13,7 +13,6 @@
   background-position: center;
   background-size: cover;
   object-fit: cover;
-
   margin-right: 0;
   margin-bottom: 0;
 }
@@ -67,6 +66,8 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  position: relative;
+  align-items: flex-end;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
