@@ -29,10 +29,9 @@
 .nav__link {
   color: #000000;
   text-decoration: none;
-  transition: opacity 0.4s;
+  transition: color 0.4s;
 }
 
 .nav__link:hover {
   color: #2f80ed;
-  opacity: 1;
 }
