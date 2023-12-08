@@ -11,10 +11,6 @@
   justify-content: space-between;
 }
 
-.footer__column_content_social {
-  padding-left: 100px;
-}
-
 .footer__logo {
   width: 105px;
   height: 39px;
@@ -43,6 +39,8 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .footer__column-link {
@@ -55,6 +53,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  transition: color 0.4s;
 }
 
 .footer__column-link:hover {
@@ -68,7 +67,7 @@
 }
 
 .footer__copyright {
-  margin: 108px 0;
+  margin: 108px 0 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
